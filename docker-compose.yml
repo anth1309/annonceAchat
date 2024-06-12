@@ -19,7 +19,7 @@ services:
     restart: unless-stopped
     tty: true
     environment:
-      MYSQL_DATABASE: site_annonces
+      MYSQL_DATABASE: achat_annonce
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
     ports:
       - "3306:3306"
